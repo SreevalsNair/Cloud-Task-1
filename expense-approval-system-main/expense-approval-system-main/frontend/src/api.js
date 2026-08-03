@@ -1,4 +1,4 @@
-const API_BASE = "http://3.111.158.52:8080";
+const API_BASE = "http://:8080";
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE}${path}`, {
