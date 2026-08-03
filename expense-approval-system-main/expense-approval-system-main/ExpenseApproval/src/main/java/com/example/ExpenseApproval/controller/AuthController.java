@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = {"http://13.232.7.225"})
+@CrossOrigin(origins = {"http://13.232.7.225:5173"})
 @RequestMapping("/auth")
 public class AuthController {
 
